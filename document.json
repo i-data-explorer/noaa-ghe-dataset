@@ -1,0 +1,40 @@
+{
+  "name": "NOAA Global Hydro Estimator (GHE) Dataset",
+  "description": "Global Hydro-Estimator provides a global mosaic imagery of rainfall estimates from multi-geostationary satellites, which currently includes GOES-16, GOES-15, Meteosat-8, Meteosat-11 and Himawari-8. The GHE products include: Instantaneous rain rate, 1 hour, 3 hour, 6 hour, 24 hour and also multi-day rainfall accumulation.",
+  "logo": "_images/dataset.png",
+  "has_supporting_content": false,
+  "stack_id": "noaa-ghe-dataset",
+  "type": "dataset-s3",
+  "categories": [
+    "Environment",
+    "Geo Data"
+  ],
+  "platform": "Kubernetes",
+  "cover": "cover.md",
+  "commands": [],
+  "display": [
+    {
+      "name": "Developer Dashboard",
+      "url": "##DNS.host##/codeserver",
+      "enabled": true
+    }
+  ],
+  "buckets": [
+    "noaa-ghe-pds"
+  ],
+  "meta": {
+    "Install time": [
+      "2 minutes"
+    ],
+    "Type": [
+      "Dataset",
+      "S3"
+    ],
+    "Tag": [ "S3" ],
+    "categories": [
+      "Environment",
+      "Geo Data"
+    ]
+  },
+  "isDocumentSaved": true
+}
