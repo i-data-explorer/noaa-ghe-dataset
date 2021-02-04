@@ -24,6 +24,15 @@
       "Environment",
       "Geo Data"
     ],
+    "Update_frequency": [
+      "Monthly"
+     ],
+    "Last_updated": [
+      "01/01/2021"
+    ],
+    "License": [
+      "N/A"
+    ],
 "Catalog Id": [
       "noaa-ghe-dataset"
     ]
